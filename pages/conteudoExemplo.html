@@ -10,6 +10,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>DSCode - Conteudo exemplo</title>
 
     <!-- !MUDAR PARA O NOME DO CONTEUDO -->
@@ -94,24 +95,35 @@
             ut ornare felis. Duis dapibus nisi ut finibus lacinia. Fusce tincidunt orci eu mauris bibendum, vestibulum
             hendrerit urna accumsan.</p>
         </div>
-
-        <div class="codeCard">
-          div.
-          <div class="code">
-            <p>code {
-              font-family: Consolas,"courier new";
-              <br>
-              color: crimson;
-              <br>
-              background-color: #f1f1f1;
-              <br>
-              padding: 2px;
-              <br>
-              font-size: 105%;
-            }</p>
+        <div class="wrapperCode">
+          <div class="containerCodeCard">
+            <div class="localCode">
+              <h3>style.css</h3>
+            </div>
+            <div class="codeCard">
+            
+              <div class="code">
+                
+                <code id="code">
+                  code { 
+                    font-family: Consolas, "courier new";
+                    color: crimson;
+                    background-color: #f1f1f1;
+                    padding: 2px;
+                    font-size: 105%;
+                  }
+                </code>
+                <!--! Botão fantasma -->
+                <button class="btnCopy">
+                  <span class="material-symbols-outlined">
+                    content_copy
+                    </span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-
+        
         <div class="imgexemplo">
           <img src="./../img/conteudo/simple-website.png" alt="Imagem">
         </div>
