@@ -30,7 +30,7 @@ button {
 main {
   background-color: #000;
   display: flex;
-  max-width: 1400px;
+  max-width: 1200px;
 
   padding: 0 2rem;
   margin: 0 auto;
@@ -51,7 +51,7 @@ main {
 .buttonInstaller a {
   color: #fff;
   font-weight: 700;
-  font-size: 14pt;
+  font-size: 13pt;
   text-decoration: none;
 }
 .buttonInstaller:hover{
@@ -60,7 +60,7 @@ main {
 }
 .appIconImg {
   object-fit: contain;
-  width: 100px;
+  width: 90px;
   height: auto;
 }
 .divAppInformations {
@@ -78,6 +78,7 @@ main {
 .appDescription {
   color: #fff;
   font-weight: 400;
+  font-size: 11pt;
 }
 .appCard {
   background-color: #1d1d1d;
