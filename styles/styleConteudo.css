@@ -4,17 +4,16 @@ body {
 }
 
 .title {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   font-size: 111px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 10px;
   text-align: center;
   display: block;
 }
 
 .textCard {
-
   border-radius: 25px;
   background-color: #0e1015;
   float: right;
@@ -23,12 +22,11 @@ body {
 }
 
 .informations {
-
   margin: 4rem;
 }
 
 .titleInformatios {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   text-align: left;
   font-size: 18pt;
   font-weight: 700;
@@ -38,7 +36,7 @@ body {
 }
 
 .textInformations {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   font-size: 13pt;
   text-align: justify;
   font-weight: 400;
@@ -51,14 +49,13 @@ body {
 }
 
 .exemple {
-  font-family: 'Source Code Pro';
+  font-family: "Source Code Pro";
   font-size: 21px;
   font-weight: 400;
   line-height: 1.2;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 479px;
 }
-
 
 .menuCard {
   min-width: 15rem;
@@ -72,61 +69,71 @@ body {
 }
 
 .titleMenu {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   text-align: center;
   font-size: 13pt;
   font-weight: 500;
   line-height: 1.2;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 131px;
   margin-left: 0;
   margin-top: 55px;
 }
 
 .itemMenu {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   font-size: 12pt;
   font-weight: 350;
   line-height: 1.2;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 1rem;
   margin-left: 1rem;
-
 }
 
-.imgexemplo{
+.imgexemplo {
   display: flex;
   justify-content: center;
 }
 
-.imgexemplo img{
+.imgexemplo img {
   width: 800px;
   height: 600px;
-
 }
 
-.menuCard a{
+.menuCard a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.codeCard{
+.codeCard {
   background-color: #000000;
   padding: 1.5rem;
   margin: 2rem 0;
 }
 
-.codeCard p{
+.codeCard p {
   color: whitesmoke;
-  font-family: 'Source Code Pro';
+  font-family: "Source Code Pro";
 }
 
-@media screen and (max-width:700px) {
-  .title {
+.contentSection {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  height: 100%;
+}
+.containerMenuCard {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .title p{
     font-size: 50px;
-    text-align: left;
+    text-align: center;
   }
-  
+
   .textCard {
     width: 100%;
     display: flex;
@@ -135,23 +142,21 @@ body {
   }
 
   .informations {
-    width: 84%;
+    width: 88%;
     height: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
+    /* margin-top: 5%; */
+    margin: 1rem 5%;
   }
 
   .titleInformatios {
+    text-align: center;
     font-size: 37px;
     font-weight: 700;
     line-height: 1.2;
-    width: 90%;
     height: auto;
   }
 
   .textInformations {
-    width: 84%;
     height: auto;
     font-size: 20px;
     font-weight: 400;
@@ -177,10 +182,12 @@ body {
 
   .menuCard {
     width: 100%;
+    padding: 0;
     height: auto;
     display: block;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0.5rem;
   }
 
   .titleMenu {
@@ -188,6 +195,7 @@ body {
     height: auto;
     font-size: 15px;
     margin-left: 5%;
+    margin-top: 5%;
   }
 
   .itemMenu1 {
@@ -209,5 +217,22 @@ body {
     height: auto;
     font-size: 15px;
     margin-left: 5%;
+  }
+
+  .contentSection {
+    display: block;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+  }
+  .containerMenuCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+  .imgexemplo img {
+    width: 100%;
+    height: auto;
   }
 }
