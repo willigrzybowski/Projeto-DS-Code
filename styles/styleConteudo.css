@@ -1,0 +1,213 @@
+body {
+  background-color: #101820;
+  max-width: 1400;
+}
+
+.title {
+  font-family: 'Work Sans';
+  font-size: 111px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
+}
+
+.textCard {
+
+  border-radius: 25px;
+  background-color: #0e1015;
+  float: right;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+.informations {
+
+  margin: 4rem;
+}
+
+.titleInformatios {
+  font-family: 'Work Sans';
+  text-align: left;
+  font-size: 18pt;
+  font-weight: 700;
+  line-height: 1.2;
+  color: whitesmoke;
+  height: auto;
+}
+
+.textInformations {
+  font-family: 'Work Sans';
+  font-size: 13pt;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 1.2;
+  color: whitesmoke;
+}
+
+.exemplesInformations {
+  top: 59px;
+}
+
+.exemple {
+  font-family: 'Source Code Pro';
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #FFFFFF;
+  width: 479px;
+}
+
+
+.menuCard {
+  min-width: 15rem;
+  height: auto;
+  border-radius: 25px;
+  background-color: #0e1015;
+  float: left;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.titleMenu {
+  font-family: 'Work Sans';
+  text-align: center;
+  font-size: 13pt;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #FFFFFF;
+  width: 131px;
+  margin-left: 0;
+  margin-top: 55px;
+}
+
+.itemMenu {
+  font-family: 'Work Sans';
+  font-size: 12pt;
+  font-weight: 350;
+  line-height: 1.2;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+
+}
+
+.imgexemplo{
+  display: flex;
+  justify-content: center;
+}
+
+.imgexemplo img{
+  width: 800px;
+  height: 600px;
+
+}
+
+.menuCard a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.codeCard{
+  background-color: #000000;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.codeCard p{
+  color: whitesmoke;
+  font-family: 'Source Code Pro';
+}
+
+@media screen and (max-width:700px) {
+  .title {
+    font-size: 50px;
+    text-align: left;
+  }
+  
+  .textCard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+  }
+
+  .informations {
+    width: 84%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+  }
+
+  .titleInformatios {
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 1.2;
+    width: 90%;
+    height: auto;
+  }
+
+  .textInformations {
+    width: 84%;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .exemplesInformations {
+    width: 84%;
+    height: auto;
+  }
+
+  .exemple {
+    width: 84%;
+    height: auto;
+    font-size: 18px;
+  }
+
+  .btn-copy {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5%;
+  }
+
+  .menuCard {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titleMenu {
+    width: 90%;
+    height: auto;
+    font-size: 15px;
+    margin-left: 5%;
+  }
+
+  .itemMenu1 {
+    width: 90%;
+    height: auto;
+    font-size: 15px;
+    margin-left: 5%;
+  }
+
+  .itemMenu2 {
+    width: 90%;
+    height: auto;
+    font-size: 15px;
+    margin-left: 5%;
+  }
+
+  .itemMenu3 {
+    width: 90%;
+    height: auto;
+    font-size: 15px;
+    margin-left: 5%;
+  }
+}
