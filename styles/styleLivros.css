@@ -1,0 +1,97 @@
+body {
+    background-color: #101820;
+    max-width: 1200;
+    font-family: "Work Sans";
+    color: white;
+  }
+
+.livrosSection {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.livro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    padding: 30px;
+    width: 90%;
+    margin: 3.5em auto;
+    align-content: flex-start;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    margin: 2px;
+    margin-left: 20px;
+}
+
+.conteudo {
+   display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.capa img {
+    max-width: 300px;
+    height: auto;
+}
+
+.capa {
+    margin: 0;
+    padding: auto;
+}
+
+.conteudo h3 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.conteudo p {
+    font-size: 24px;
+    margin: 8px;
+}
+
+.viewButton {
+    background-color: #2c06c4;
+    box-shadow: 4px 4px 15px 0px rgba(19, 53, 178, 0.37);
+    height: 3rem;
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 1.5em;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 1rem;
+    width: 10rem;
+}
+
+.viewButton:hover {
+    background-color: #3300ff;
+    transition: 500ms;
+ }
+
+
+
+.conteudo .descricao {
+    text-align: justify;
+}
+
+
+
