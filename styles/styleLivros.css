@@ -93,5 +93,39 @@ body {
     text-align: justify;
 }
 
-
+@media screen and (max-width: 800px){
+    .livro{
+        display: block;
+        padding: 0;
+        width: auto;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    .informacoes{
+        margin: 0;
+        padding: 0;
+    }
+    .capa{
+        display: flex;
+        justify-content: center;
+    }
+    .capa img{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    .viewButton {
+        margin: 0;
+    }
+    .botoes{
+        display: flex;
+        justify-content: center;
+    }
+    .conteudo h3{
+        font-size: 25pt;
+        margin-top: 0.5rem;
+    }
+    .conteudo p{
+        font-size: 12pt;
+    }
+}
 
