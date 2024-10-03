@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans";
+  background-image: url(/img/codigo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  font-size: 24px;
+  font-family: "Work Sans";
+  font-weight: bold;
+  color: #fff;
+  font-weight: bolder;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #171717;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu li {
+  position: relative;
+}
+
+.nav-left a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  text-decoration: none;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  text-decoration: none;
+}
+
+a {
+  position: relative;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.welcome-content {
+  text-align: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 50px;
+  font-family: "Work Sans";
+  font-weight: bold;
+}
+
+p {
+  width: 50%;
+  font-size: 22px;
+  color: #fff;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px;
+  margin-top: 17px;
+  z-index: 1;
+}
+
+.dropdown li {
+  margin: 5px 0;
+}
+
+.dropdown li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown li a:hover {
+  text-decoration: underline;
+}
+
+/* Exibir dropdown ao passar ou clicar */
+/* .menu li:hover .dropdown, */
+.menu li a:focus + .dropdown {
+  display: block;
+}
+
+.txt-main {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #333;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .welcome-content h1 {
+    font-size: 28px;
+  }
+
+  .welcome-content p {
+    font-size: 16px;
+  }
+}
+
+.menu.active {
+  display: flex;
+}
+
+/*! EDIÇÕES DO VINICIUS */
+
+main {
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  display: flex;
+}
+
+.logo a {
+  text-decoration: none;
+}
