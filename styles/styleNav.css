@@ -140,7 +140,8 @@ p {
 }
 
 /* Exibir dropdown ao passar ou clicar */
-/* .menu li:hover .dropdown, */
+/*! JOÂO PAULO, pq quando eu tiro o hover a linkagem para de funcionar */
+.menu li:hover .dropdown, 
 .menu li a:focus + .dropdown {
   display: block;
 }
@@ -192,6 +193,6 @@ main {
   display: flex;
 }
 
-.logo a {
+/* .logo a {
   text-decoration: none;
-}
+} */

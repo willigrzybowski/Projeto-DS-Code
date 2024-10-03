@@ -1,9 +1,7 @@
-*, body{
-  margin: 0%;
-}
 body {
   background-color: #101820;
   max-width: 1200;
+  margin: 0;
 }
 
 .material-symbols-outlined {
@@ -275,6 +273,47 @@ background-position: center
   grid-template-columns: repeat(4, 1fr); 
   gap: 1rem; 
 }
+
+
+.bookSection{
+  background-color: #2c06c4;
+  color: whitesmoke;
+  margin: 3rem 0;
+  padding-bottom: 1.5rem;
+}
+.bookSection .booksButton{
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #101820;
+  font-weight: 500;
+transition: 0.5s;
+
+}
+.booksButton:hover{
+transform: scale(105%);
+transition: 0.5s;
+}
+
+.bookContainer {
+  display: block;
+  font-family: "Work Sans";
+  font-size: 12pt;
+  font-weight: 350;
+}
+.bookWrapper {
+  display: flex;
+  justify-content: center;
+}
+.booksButtonContainer{
+  display: flex;
+  justify-content: center;
+}
+.bookContainer h1{
+  text-align: center;
+}
+
 @media screen and (max-width: 800px) {
   .title p {
     font-size: 50px;
@@ -406,5 +445,16 @@ background-position: center
   .grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  .bookSection {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+  }
+  .bookSection {
+    margin: 1rem auto;
+    padding: 1rem;
   }
 }
