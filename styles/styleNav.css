@@ -2,9 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* motivo do bug no sobre */
 }
 
-body {
+
+.bodyHome {
   font-family: "Work Sans";
   background-image: url(/img/codigo.jpeg);
   background-repeat: no-repeat;
@@ -12,6 +14,7 @@ body {
 }
 
 nav {
+  font-family: "Work Sans";
   width: 100%;
   padding: 15px 20px;
   display: flex;
@@ -68,14 +71,14 @@ nav {
   text-decoration: none;
 }
 
-a:hover:before {
+header a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   text-decoration: none;
 }
 
-a {
+header a, homePage a{
   position: relative;
   color: white;
   padding: 5px;
@@ -97,7 +100,7 @@ a {
   text-align: center;
 }
 
-h1 {
+.welcome-content h1 {
   display: flex;
   justify-content: center;
   color: #fff;
@@ -106,7 +109,7 @@ h1 {
   font-weight: bold;
 }
 
-p {
+.txt-main p {
   width: 50%;
   font-size: 22px;
   color: #fff;
@@ -141,7 +144,7 @@ p {
 
 /* Exibir dropdown ao passar ou clicar */
 /*! JOÂO PAULO, pq quando eu tiro o hover a linkagem para de funcionar */
-.menu li:hover .dropdown, 
+.menu li:hover .dropdown,
 .menu li a:focus + .dropdown {
   display: block;
 }
@@ -186,13 +189,13 @@ p {
 
 /*! EDIÇÕES DO VINICIUS */
 
-main {
+.homePage {
   align-items: center;
   justify-content: center;
   height: 90vh;
   display: flex;
 }
 
-/* .logo a {
+.logo a {
   text-decoration: none;
-} */
+}
