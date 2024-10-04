@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/styleNav.css">
+  <link rel="stylesheet" href="../styles/styleConteudo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>DSCode - Conteudo Programação Web</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../img/favicon_package/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../img/favicon_package/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../img/favicon_package/favicon-16x16.png"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo"><a href="./../index.html">DS CODE</a></div>
+      <div class="nav-left">
+        <ul class="menu">
+          <li>
+            <a href="./../index.html" class="dropdown-toggle">Home</a>
+          </li>
+          <li>
+            <a href="#">Linguagens</a>
+            <ul class="dropdown">
+              <li><a href="./../pages/conteudoExemplo.html">JavaScript</a></li>
+              <li><a href="#">Python</a></li>
+              <li><a href="#">C++</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./../applications.html" class="dropdown-toggle"
+              >Programas</a
+            >
+          </li>
+          <li>
+            <a href="./../about.html" class="dropdown-toggle">Sobre</a>
+          </li>
+          <!--? Pagina retirada, no futuro poderá retornar -->
+          <!-- <li>
+              <a class="dropdown-toggle" href="#">Matérias</a>
+              <ul class="dropdown">
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">C+</a></li>
+              </ul>
+            </li> -->
+        </ul>
+      </div>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </nav>
+  </header>
+<main>
+
+  <div class="title">
+    <P>HTML/CSS</P>
+  </div>
+
+  <section class="contentSection" >
+
+      <div class="containerMenuCard">
+        <article class="menuCard" style="display: block;">
+
+          <div class="titleMenu">
+            <p>HTML/CSS</p>
+          </div>
+    
+          <div class="itemMenu">
+            <a href="#">condimentum sit amet</a>
+          </div>
+    
+          <div class="itemMenu">
+            <a href="#">non urna at nulla</a>
+          </div>
+    
+          <div class="itemMenu">
+            <a href="#">Integer eget sapien sit amet</a>
+          </div>
+    
+      </article>
+    </div>
+    
+
+    <article class="textCard">
+      <div class="informations">
+        <div class="titleInformatios">
+          <p>O que é HTML?</p>
+        </div>
+
+        <div class="textInformations">
+          <p>HTML, sigla para HyperText Markup Language, Embora não seja uma linguagem de
+            programação propriamente dita, mas sim uma linguagem de marcação, ele é responsável
+            por estruturar o conteúdo das páginas web. Por meio de elementos e tags, o HTML define
+            como cada parte de uma página será exibida, organizando textos,
+            imagens, links e outros elementos visuais.</p>
+        </div>
+
+        <div class="titleInformatios">
+          <p>O que são tags?</p>
+        </div>
+
+        <div class="textInformations">
+          <p>No HTML, as tags desempenham um papel importante para a estruturação da página web,
+            ela define que elemento será inserido. Existem inúmeras tags, que desempenham papéis
+            diversos dentro da página. A maior parte delas vêm com uma tag de abertura, e uma de fechamento.
+            Também, as tags são delimitadas dentro de colchetes angulares (<b>< ></b>), podendo inserir atributos
+            dentro dos colchetes, como "class", "id", e/ou "src".
+          </p>
+        </div>
+        <div class="wrapperCode">
+          <div class="containerCodeCard">
+            <div class="localCode">
+              <h3>index.html</h3>
+            </div>
+            <div class="codeCard">
+              <div class="code">
+                <code id="code">
+                &lt;h1&gt;tag de título&lt;/h1&gt;
+                &lt;p&gt;tag de páragrafo&lt;/p&gt;
+
+                &lt;!-- Assim se faz um comentário --&gt;
+                &lt;!-- Exemplo de tag com atributo abaixo--&gt;
+
+                &lt;img src="imagem.jpg" alt="Descrição da imagem"&gt;
+
+                &lt;p class="paragrafo" id="pExemplo"&gt;tag de páragrafo
+                com atributo&lt;/p&gt;
+                </code>
+                <!--! Botão fantasma -->
+                <button class="btnCopy">
+                  <span class="material-symbols-outlined">
+                    content_copy
+                    </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Colocaria aqui exemplos de Tags-->
+
+        <div class="titleInformatios">
+          <p>Exemplos de atributos</p>
+        </div>
+        <div class="textInformations">
+          <p>Existem alguns tipos de atributos que podem ser atribuidos dentro do seu documento HTML,
+            por exemplos:
+          </p>
+          <p><b>Class:</b> a class serve especialmente para ser um marcador de tags específicas, que podem ser formatadas
+          por um documento CSS, ou manipuladas por um script JavaScript.</p>
+        </div>
+
+        <!-- Falta muitos atributos, e talvez eu coloque acima exemplos de tags também -->
+        
+        <div class="imgexemplo">
+          <img src="./../img/conteudo/simple-website.png" alt="Imagem">
+        </div>
+
+        <!-- Falta fazer um elemento pra linkar os PDFs de livros -->
+    </article>
+
+    
+  </section>
+  <section class="bookSection">
+    <div class="bookWrapper">
+      <div class="bookContainer">
+        <div> 
+          <h1> Veja livros sobre esse tópico </h1>
+        </div>
+        <div>
+          <p>Descubra uma variedade de eBooks que podem ajudar a expandir seu aprendizado.</p>
+        </div>
+        <div class="booksButtonContainer">
+          <a class="booksButton" href="./books/livrosExemplo.html">
+            Ver principais livros
+          </a>
+        </div>
+      </div>
+  </div>
+</section>    
+</main>
+<script src="./../js/script.js"></script>
+</body>
