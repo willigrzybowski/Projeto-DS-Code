@@ -14,7 +14,7 @@ textarea {
 }
  
 body {
-  background-color: #000;
+  background-color: #101820;
 }
 
 h1,
@@ -28,7 +28,7 @@ button {
 }
 
 main {
-  background-color: #000;
+  background-color: #101820;
   display: flex;
   max-width: 1200px;
 

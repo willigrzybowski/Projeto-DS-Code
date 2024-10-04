@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DSCode - Livros</title>
+    <link rel="stylesheet" href="./../../styles/styleNav.css">
     <link rel="stylesheet" href="./../../styles/styleLivros.css">
     <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
@@ -32,6 +33,44 @@
 
 </head>
 <body>
+    <header>
+        <nav>
+          <div class="logo"><a href="./../../index.html">DS CODE</a></div>
+          <div class="nav-left">
+            <ul class="menu">
+              <li>
+                <a href="./../../index.html" class="dropdown-toggle">Home</a>
+              </li>
+              <li>
+                <a href="#">Linguagens</a>
+                <ul class="dropdown">
+                  <li><a href="./../../pages/conteudoExemplo.html">JavaScript</a></li>
+                  <li><a href="#">Python</a></li>
+                  <li><a href="#">C++</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="./../../applications.html" class="dropdown-toggle"
+                  >Programas</a
+                >
+              </li>
+              <li>
+                <a href="./../../about.html" class="dropdown-toggle">Sobre</a>
+              </li>
+              <!--? Pagina retirada, no futuro poderá retornar -->
+              <!-- <li>
+                  <a class="dropdown-toggle" href="#">Matérias</a>
+                  <ul class="dropdown">
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Python</a></li>
+                    <li><a href="#">C+</a></li>
+                  </ul>
+                </li> -->
+            </ul>
+          </div>
+          <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        </nav>
+      </header>
     <section class="livrosSection">
         <div class="livro">
             <div class="capa">
@@ -79,5 +118,6 @@
             </div>
         </div>
     </section>
+    <script src="./../../js/script.js"></script>
 </body>
 </html>
