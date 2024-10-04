@@ -1,4 +1,4 @@
-* {
+header > * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,8 +8,8 @@
 
 .bodyHome {
   font-family: "Work Sans";
-  background-image: url(/img/codigo.jpeg);
-  background-repeat: no-repeat;
+  background-image: url(./../img/codigo.jpeg);
+  background-repeat: space;
   background-size: cover;
 }
 
@@ -107,6 +107,7 @@ header a, homePage a{
   font-size: 50px;
   font-family: "Work Sans";
   font-weight: bold;
+  margin: 0;
 }
 
 .txt-main p {
@@ -181,6 +182,9 @@ header a, homePage a{
   .welcome-content p {
     font-size: 16px;
   }
+  .homePage {
+    height: 100vh;
+  }
 }
 
 .menu.active {
@@ -192,7 +196,7 @@ header a, homePage a{
 .homePage {
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 87vh;
   display: flex;
 }
 
