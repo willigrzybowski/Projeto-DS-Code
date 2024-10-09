@@ -1,112 +1,157 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DSCode - Livros</title>
-    <link rel="stylesheet" href="./../../styles/styleNav.css">
-    <link rel="stylesheet" href="./../../styles/styleLivros.css">
+    <link rel="stylesheet" href="./../../styles/styleNav.css" />
+    <link rel="stylesheet" href="./../../styles/styleLivros.css" />
     <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
-    rel="apple-touch-icon"
-    sizes="180x180"
-    href="./../../img/favicon_package/apple-touch-icon.png"
-  />
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="./../../img/favicon_package/favicon-32x32.png"
-  />
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="16x16"
-    href="./../../img/favicon_package/favicon-16x16.png"
-  />
-  <meta name="msapplication-TileColor" content="#da532c" />
-  <meta name="theme-color" content="#ffffff" />
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
 
-</head>
-<body>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./../../img/favicon_package/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./../../img/favicon_package/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./../../img/favicon_package/favicon-16x16.png"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
     <header>
-        <nav>
-          <div class="logo"><a href="./../../index.html">DS CODE</a></div>
-          <div class="nav-left">
-            <ul class="menu">
-              <li>
-                <a href="./../../index.html" class="dropdown-toggle">Home</a>
-              </li>
-              <li>
-                <a href="#">Linguagens</a>
-                <ul class="dropdown">
-                  <li><a href="./../../pages/conteudoExemplo.html">JavaScript</a></li>
-                  <li><a href="#">Python</a></li>
-                  <li><a href="#">C++</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="./../../applications.html" class="dropdown-toggle"
-                  >Programas</a
-                >
-              </li>
-              <li>
-                <a href="./../../about.html" class="dropdown-toggle">Sobre</a>
-              </li>
-              <!--? Pagina retirada, no futuro poderá retornar -->
-              <!-- <li>
-                  <a class="dropdown-toggle" href="#">Matérias</a>
-                  <ul class="dropdown">
-                    <li><a href="#">JavaScript</a></li>
-                    <li><a href="#">Python</a></li>
-                    <li><a href="#">C+</a></li>
-                  </ul>
-                </li> -->
-            </ul>
-          </div>
-          <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-        </nav>
-      </header>
+      <nav>
+        <div class="logo"><a href="./../../index.html">DS CODE</a></div>
+        <div class="nav-left">
+          <ul class="menu">
+            <li>
+              <a href="./../../index.html" class="dropdown-toggle">Home</a>
+            </li>
+            <li>
+              <a href="#">Linguagens</a>
+              <ul class="dropdown">
+                <li>
+                  <a href="./../../pages/htmlCssContent.html">HTML&CSS</a>
+                </li>
+                <li><a href="./../../pages/phpContent.html">PHP</a></li>
+                <li><a href="./../../pages/csharpContent.html">C#</a></li>
+                <li><a href="./../../pages/mysqlContent.html">MySQL</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Matérias</a>
+              <ul class="dropdown" style="width: 200px">
+                <li><a href="./../../pages/aps.html">APS</a></li>
+                <li>
+                  <a href="./../../pages/bancoDeDados.html">Banco de Dados</a>
+                </li>
+                <li>
+                  <a href="./../../pages/designDigital.html">Design Digital</a>
+                </li>
+                <li>
+                  <a href="./../../pages/informaticaBasica.html"
+                    >Informática Básica</a
+                  >
+                </li>
+                <li>
+                  <a href="./../../pages/programacaoWeb.html"
+                    >Programação Web</a
+                  >
+                </li>
+                <li>
+                  <a href="./../../pages/linguagensDiversas.html"
+                    >Linguagens Diversas</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="./../../applications.html" class="dropdown-toggle"
+                >Programas</a
+              >
+            </li>
+            <li>
+              <a href="./../../about.html" class="dropdown-toggle">Sobre</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      </nav>
+    </header>
     <section class="livrosSection">
-        <div class="livro">
-            <div class="capa">
-                <img src="./../../img/capaLivros/Apostila de HTML e CSS-Logica de Programação.png" alt="">
-            </div>
-            <div class="informacoes">
-                <div class="conteudo">
-                    <h3>Titulo: Apostila - HTML e CSS</h3>
-                    <p class="tipo">Tipo: Programação web</p>
-                    <p class="descricao">Descrição: Esta apostila é um guia prático e acessível para iniciantes que desejam aprender sobre HTML (HyperText Markup Language) e CSS (Cascading Style Sheets). Com uma abordagem didática, ela abrange os conceitos fundamentais que formam a base do desenvolvimento web.</p>
-                </div>
-                <div class="botoes">
-                  <a href="./../../booksPDF/Apostila HTML e CSS.pdf" target="_blank">
-                    <button type="button" class="viewButton">Ver Livro</button>
-                  </a>
-                </div>
-            </div>
+      <div class="livro">
+        <div class="capa">
+          <img
+            src="./../../img/capaLivros/Apostila de HTML e CSS-Logica de Programação.png"
+            alt=""
+          />
         </div>
-        <div class="livro">
-            <div class="capa">
-                <img src="./../../img/capaLivros/Apostila de programação para web HTML e CSS-Logica de Programação.png" alt="">
-            </div>
-            <div class="informacoes">
-                <div class="conteudo">
-                    <h3>Titulo: Apostila - Programação web</h3>
-                    <p class="tipo">Tipo: Programação web</p>
-                    <p class="descricao">Descrição: Esta apostila é um guia abrangente e prático para quem deseja entender os fundamentos da programação web. Abordando tanto o front-end quanto o back-end, o material é voltado para iniciantes e profissionais que buscam expandir suas habilidades no desenvolvimento de aplicações web.</p>
-                </div>
-                <div class="botoes">
-                  <a href="./../../booksPDF/Apostila-Programacao-WEB_HTML_CSS.pdf" target="_blank">
-                    <button type="button" class="viewButton">Ver Livro</button>
-                  </a>
-                </div>
-            </div>
+        <div class="informacoes">
+          <div class="conteudo">
+            <h3>Titulo: Apostila - HTML e CSS</h3>
+            <p class="tipo">Tipo: Programação web</p>
+            <p class="descricao">
+              Descrição: Esta apostila é um guia prático e acessível para
+              iniciantes que desejam aprender sobre HTML (HyperText Markup
+              Language) e CSS (Cascading Style Sheets). Com uma abordagem
+              didática, ela abrange os conceitos fundamentais que formam a base
+              do desenvolvimento web.
+            </p>
+          </div>
+          <div class="botoes">
+            <a href="./../../booksPDF/Apostila HTML e CSS.pdf" target="_blank">
+              <button type="button" class="viewButton">Ver Livro</button>
+            </a>
+          </div>
         </div>
+      </div>
+      <div class="livro">
+        <div class="capa">
+          <img
+            src="./../../img/capaLivros/Apostila de programação para web HTML e CSS-Logica de Programação.png"
+            alt=""
+          />
+        </div>
+        <div class="informacoes">
+          <div class="conteudo">
+            <h3>Titulo: Apostila - Programação web</h3>
+            <p class="tipo">Tipo: Programação web</p>
+            <p class="descricao">
+              Descrição: Esta apostila é um guia abrangente e prático para quem
+              deseja entender os fundamentos da programação web. Abordando tanto
+              o front-end quanto o back-end, o material é voltado para
+              iniciantes e profissionais que buscam expandir suas habilidades no
+              desenvolvimento de aplicações web.
+            </p>
+          </div>
+          <div class="botoes">
+            <a
+              href="./../../booksPDF/Apostila-Programacao-WEB_HTML_CSS.pdf"
+              target="_blank"
+            >
+              <button type="button" class="viewButton">Ver Livro</button>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
     <script src="./../../js/script.js"></script>
-</body>
+  </body>
 </html>
