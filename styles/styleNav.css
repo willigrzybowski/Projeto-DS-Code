@@ -145,7 +145,7 @@ header a, homePage a{
 
 /* Exibir dropdown ao passar ou clicar */
 /*! JOÂO PAULO, pq quando eu tiro o hover a linkagem para de funcionar */
-.menu li:hover .dropdown,
+.menu li:active .dropdown,
 .menu li a:focus + .dropdown {
   display: block;
 }
@@ -165,6 +165,7 @@ header a, homePage a{
     left: 0;
     right: 0;
     background-color: #333;
+    z-index: 1000;
   }
 
   .menu li {
