@@ -1,42 +1,444 @@
-<header>
-    <nav>
-      <div class="logo"><a href="./../index.html">DS CODE</a></div>
-      <div class="nav-left">
-        <ul class="menu">
-          <li>
-            <a href="./../index.html" class="dropdown-toggle">Home</a>
-          </li>
-          <li>
-            <a href="#">Linguagens</a>
-            <ul class="dropdown">
-              <li><a href="./../pages/htmlCssContent.html">HTML&CSS</a></li>
-              <li><a href="./../pages/phpContent.html">PHP</a></li>
-              <li><a href="./../pages/csharpContent.html">C#</a></li>
-              <li><a href="./../pages/mysqlContent.html">MySQL</a></li>
-            </ul>
-          </li>
-          <li>
-              <a href="#">Matérias</a>
-              <ul class="dropdown" style="width: 200px;">
-                <li><a href="./../pages/aps.html">APS</a></li>
-                <li><a href="./../pages/bancoDeDados.html">Banco de Dados</a></li>
-                <li><a href="./../pages/designDigital.html">Design Digital</a></li>
-                <li><a href="./../pages/informaticaBasica.html">Informática Básica</a></li>
-                <li><a href="./../pages/programacaoWeb.html">Programação Web</a></li>
-                <li><a href="./../pages/linguagensDiversas.html">Linguagens Diversas</a></li>
-                <li><a href="./../pages/logicaProgramacao.html">Lógica de Programação</a></li>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/styleNav.css">
+  <link rel="stylesheet" href="../styles/styleConteudo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>DSCode - CSharp</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../img/favicon_package/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../img/favicon_package/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../img/favicon_package/favicon-16x16.png"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+</head>
+
+<body>
+
+  <header>
+      <nav>
+        <div class="logo"><a href="./../index.html">DS CODE</a></div>
+        <div class="nav-left">
+          <ul class="menu">
+            <li>
+              <a href="./../index.html" class="dropdown-toggle">Home</a>
+            </li>
+            <li>
+              <a href="#">Linguagens</a>
+              <ul class="dropdown">
+                <li><a href="./../pages/htmlCssContent.html">HTML&CSS</a></li>
+                <li><a href="./../pages/phpContent.html">PHP</a></li>
+                <li><a href="./../pages/csharpContent.html">C#</a></li>
+                <li><a href="./../pages/mysqlContent.html">MySQL</a></li>
               </ul>
             </li>
-          <li>
-            <a href="./../applications.html" class="dropdown-toggle"
-              >Programas</a
-            >
-          </li>
-          <li>
-            <a href="./../about.html" class="dropdown-toggle">Sobre</a>
-          </li>
-        </ul>
+            <li>
+                <a href="#">Matérias</a>
+                <ul class="dropdown" style="width: 200px;">
+                  <li><a href="./../pages/aps.html">APS</a></li>
+                  <li><a href="./../pages/bancoDeDados.html">Banco de Dados</a></li>
+                  <li><a href="./../pages/designDigital.html">Design Digital</a></li>
+                  <li><a href="./../pages/informaticaBasica.html">Informática Básica</a></li>
+                  <li><a href="./../pages/programacaoWeb.html">Programação Web</a></li>
+                  <li><a href="./../pages/linguagensDiversas.html">Linguagens Diversas</a></li>
+                  <li><a href="./../pages/logicaProgramacao.html">Lógica de Programação</a></li>
+                </ul>
+              </li>
+            <li>
+              <a href="./../applications.html" class="dropdown-toggle"
+                >Programas</a
+              >
+            </li>
+            <li>
+              <a href="./../about.html" class="dropdown-toggle">Sobre</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      </nav>
+    </header>
+<main>
+
+  <div class="title">
+    <P>CSharp</P>
+  </div>
+
+  <section class="contentSection" >
+
+      <div class="containerMenuCard">
+        <article class="menuCard" style="display: block;">
+
+          <div class="titleMenu">
+            <p>CSharp</p>
+          </div>
+    
+          <div class="itemMenu">
+            <a href="#cSharp">CSharp</a>
+          </div>
+    
+          <div class="itemMenu">
+            <a href="#contas">Contas matemáticas</a>
+          </div>
+    
+          <div class="itemMenu">
+            <a href="#ifElse">If else</a>
+          </div>
+
+          <div class="itemMenu">
+            <a href="#switch">Switch</a>
+          </div>
+
+          <div class="itemMenu">
+            <a href="#tutorial">Tutorial</a>
+          </div>
+
+          <div class="itemMenu">
+            <a href="#tutorialVideo">Vídeo de tutorial</a>
+          </div>
+    
+      </article>
+    </div>
+    
+
+    <article class="textCard">
+      <div class="informations">
+        <div class="titleInformatios">
+          <p id="cSharp">CSharp</p>
+        </div>
+
+        <div class="textInformations">
+          <p>É uma linguagem de programação desenvolvida pela Microsoft que roda no .NET
+            Framework. É usado para desenvolver aplicativos web, de desktop, móveis, jogos e
+            muito mais.</p>
+
+            <p>Os dados obtidos pelos códigos são armazenados em variáveis, que são uma porção de
+              memória (RAM) utilizada para armazenar dados durante a execução dos programas.
+              Variáveis podem armazenar certos tipos de dados temporários e dados persistentes
+              (aqueles que podem ser salvos em bancos de dados, por exemplo). Variáveis não
+              podem conter acentos, cedilha, etc, além de não poder começar com números.
+              </p>
+
+              <div class="imgexemplo">
+                <img src="./../img/conteudo/tabela_de_variaveis.png" alt="Imagem">
+              </div>
+
+              <p>Console.WriteLine("Hello, World");</p>
+
+              <p>O comando “Console.WriteLine” permite que o programa exiba uma mensagem,
+                nesse caso: “Hello, World”.</p>
+
+              <p>int i = 123;</p>
+
+              <p>A variável “i” é do tipo int, ou seja, inteiro, isso significa que ela
+                não possuí números com vírgula. Essa variável possui o valor: “123”,
+                então sempre que ela for chamada, ela aparecerá como “123”, como no
+                exemplo abaixo:</p>
+        </div>
+
+        <div class="wrapperCode">
+          <div class="containerCodeCard">
+            <div class="localCode">
+              <h3>program.cs</h3>
+            </div>
+            <div class="codeCard">
+            
+              <div class="code">
+                
+                <code id="code">
+                  ENTRADA:
+                  int i = 123;
+                  Console.WriteLine(i);
+                  
+                  SAÍDA:
+                  123
+                </code>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="textInformations">
+          <p>Int i = int.Parse(Console.ReadLine());</p>
+
+          <p>O comando “Console.ReadLine()” pede para o programa ler uma informação inserida
+            anteriormente e atribui-la em algo, nesse caso a variável “i” passará a ter o valor
+            colocado.
+            </p>
+        </div>
+
+        <div class="wrapperCode">
+          <div class="containerCodeCard">
+            <div class="localCode">
+              <h3>program.cs</h3>
+            </div>
+            <div class="codeCard">
+            
+              <div class="code">
+                
+                <code id="code">
+                  ENTRADA:
+                  Console.WriteLine(“Digite o valor da variável: ”);
+                  Int i = int.Parse(Console.ReadLine());
+
+                  SAÍDA:
+                  Digite o valor da variável:
+                  8
+                </code>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="titleInformatios">
+          <p id="contas">CONTAS MATEMÁTICAS:</p>
+        </div>
+        <div class="textInformations">
+          <p>Podemos realizar diversas operações com CSharp, entre elas as matemáticas.</p>
+
+          <p>A adição é representada pelo símbolo de “+”;<br>
+            A subtração é representada pelo símbolo de “-”;<br>
+            A multiplicação é representada pelo símbolo de “*”;<br>
+            A divisão é representada pelo símbolo de “/”;<br>
+            O igual é representado pelo símbolo de “=” ou “==”;<br>
+            A diferença é representada pelo símbolo de “!=” ou “!==”;<br>
+            O resto da divisão é representada pelo símbolo de “%”;<br>
+            A potência é representada pelo código “pow.math”;<br>
+            A raiz quadrada é representada pelo código “sqrt.math”
+            </p>
+        </div>
+
+        <div class="wrapperCode">
+          <div class="containerCodeCard">
+            <div class="localCode">
+              <h3>program.cs</h3>
+            </div>
+            <div class="codeCard">
+            
+              <div class="code">
+                
+                <code id="code">
+                  ENTRADA:
+                  int num1 = 2;
+                  int num2 = 4;
+                  int num3 = 10;
+                  Console.WriteLine(num1 + num2 + num3);
+                  Console.WriteLine(num2 - num1);
+                  Console.WriteLine(num2 * num3);
+                  Console.WriteLine(num3 / num1);
+                  Console.WriteLine(num2 % num1);
+                  Console.WriteLine(Math.Pow(num2, num1));
+                  Console.WriteLine(Math.Sqrt(num2));
+
+                  SAÍDA:
+                  16
+                  2
+                  40
+                  5
+                  0
+                  16
+                  2
+                </code>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="titleInformatios">
+          <p id="ifElse">IF ELSE:</p>
+        </div>
+        <div class="textInformations">
+          <p>É usado para criar uma condição no código, fazendo com que uma ação só seja
+            realizada se ela atender a condição. Se não atender a condição, outra ação acontecerá.
+            Outros tipos de símbolos podem ser usados aqui, sendo eles:
+            </p>
+
+          <p>&& = E;<br>
+            || = OU;<br>
+            ! = NÃO;<br>
+            > = MAIOR QUE;<br>
+            < = MENOR QUE   
+            </p>
+        </div>
+
+        <div class="wrapperCode">
+          <div class="containerCodeCard">
+            <div class="localCode">
+              <h3>program.cs</h3>
+            </div>
+            <div class="codeCard">
+            
+              <div class="code">
+                
+                <code id="code">
+                  ENTRADA:
+                  Console.WriteLine(“Escreva um número: ”);
+                  int condicao = int.Parse(Console.ReadLine());
+                  if(condicao > 0 || condicao =! 0) {
+                  Console.WriteLine(“O número é positivo”);
+                  } else {
+                  Console.WriteLine(“O número é negativo”)
+                  };
+
+                  SAÍDA:
+                  Escreva um número:
+                  4
+                  O número é positivo
+                </code>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="textInformations">
+          <p>Várias condições podem ser feitas se usarmos o comando “else if” entre o primeiro “if”
+            e o último “else”:            
+            </p>
+        </div>
+
+        <div class="wrapperCode">
+          <div class="containerCodeCard">
+            <div class="localCode">
+              <h3>program.cs</h3>
+            </div>
+            <div class="codeCard">
+            
+              <div class="code">
+                
+                <code id="code">
+                  ENTRADA:
+                  Console.WriteLine(“Escreva um número: ”);
+                  int condicao = int.Parse(Console.ReadLine());
+                  if(condicao > 0) {
+                  Console.WriteLine(“O número é positivo”);
+                  } else if(condicao < 0) {
+                  Console.WriteLine(“O número é negativo”);
+                  } else {
+                  Console.WriteLine(“O número é nulo”);
+                  };
+
+                  SAÍDA:
+                  Escreva um número:
+                  0
+                  O número é nulo
+                </code>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="titleInformatios">
+          <p id="switch">SWITCH:</p>
+        </div>
+        <div class="textInformations">
+          <p>Só pode ser usado com números. Sempre que um número pré determinada for usado,
+            uma ação programada será executada.            
+            </p>
+        </div>
+
+        <div class="wrapperCode">
+          <div class="containerCodeCard">
+            <div class="localCode">
+              <h3>program.cs</h3>
+            </div>
+            <div class="codeCard">
+            
+              <div class="code">
+                
+                <code id="code">
+                  ENTRADA:
+                  Console.WriteLine(“1-Manhã | 2-Tarde | 3-Noite”);
+                  Console.WriteLine(“Escreva um número: ”);
+                  int periodo = int.Parse(Console.ReadLine());
+                  switch(período)
+                  {
+                  case 1:
+                  Console.WriteLine("Manhã");
+                  break;
+                  case 2:
+                  Console.WriteLine("Tarde");
+                  break;
+                  case 3:
+                  Console.WriteLine("Noite");
+                  break;
+                  }
+
+                  SAÍDA:
+                  1-Manhã | 2-Tarde | 3-Noite
+                  Escreva um número:
+                  2
+                  Tarde
+                </code>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="titleInformatios">
+          <p id="tutorial">Tutorial de C# da W3 School</p>
+        </div>
+
+        <button class="buttonFont" style="margin-left: -5px; margin-top: 0px; width: auto; padding: 0 1rem;">
+          <a
+            href="https://www.w3schools.com/cs/index.php"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Acessar W3 Schools
+          </a>
+        </button>
+
+        <div class="titleInformatios">
+          <p id="tutorialVideo">Vídeo para aprender o
+              básico de CSharp em apenas 5 horas</p>
+        </div>
+        <div class="video2" style="display: flex; justify-content: center;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/PKMm-cHe56g?si=iW3v20Cd_sKWhnty" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+
+    </article>
+
+    
+  </section>
+  <section class="bookSection">
+    <div class="bookWrapper">
+      <div class="bookContainer">
+        <div> 
+          <h1> Veja livros sobre esse tópico </h1>
+        </div>
+        <div>
+          <p>Descubra uma variedade de eBooks que podem ajudar a expandir seu aprendizado.</p>
+        </div>
+        <div class="booksButtonContainer">
+          <a class="booksButton" href="./books/linguagensDiversas.html">
+            Ver principais livros
+          </a>
+        </div>
       </div>
-      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-    </nav>
-  </header>
+  </div>
+</section>    
+</main>
+<script src="./../js/script.js"></script>
+</body>
