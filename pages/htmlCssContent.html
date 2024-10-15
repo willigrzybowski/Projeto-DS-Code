@@ -12,7 +12,7 @@
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>DSCode - Conteudo Programação Web</title>
+    <title>DSCode - HTML/CSS</title>
 
     <link
       rel="apple-touch-icon"
@@ -91,24 +91,50 @@
         <article class="menuCard" style="display: block;">
 
           <div class="titleMenu">
-            <p>HTML/CSS</p>
+            <p>HTML</p>
           </div>
     
           <div class="itemMenu">
-            <a href="#">O que é HTML?</a>
+            <a href="#html1">O que é HTML?</a>
           </div>
     
           <div class="itemMenu">
-            <a href="#">O que são Tags?</a>
+            <a href="#html2">O que são Tags?</a>
           </div>
     
           <div class="itemMenu">
-            <a href="#">Exemplos de Tags</a>
+            <a href="#html3">EXEMPLOS DE TAGS</a>
           </div>
 
           <div class="itemMenu">
-            <a href="#">Exemplos de atributos</a>
+            <a href="#html4">TAGS NO CÓDIGO</a>
           </div>
+
+          <div class="itemMenu">
+            <a href="#html5">Exemplos de atributos</a>
+          </div>
+
+          <div class="titleMenu">
+            <p>CSS</p>
+          </div>
+
+          <div class="itemMenu">
+            <a href="#css1">O que é CSS?</a>
+          </div>
+
+          <div class="itemMenu">
+            <a href="#css2">FORMATAÇÃO</a>
+          </div>
+
+          <div class="itemMenu">
+            <a href="css3">UNIDADES DE MEDIDA</a>
+          </div>
+
+          <div class="itemMenu">
+            <a href="#css4">Exemplos de Códigos</a>
+          </div>
+    
+          
     
       </article>
     </div>
@@ -116,19 +142,19 @@
 
     <article class="textCard">
       <div class="informations">
-        <div class="titleInformatios">
+        <div class="titleInformatios" id="html1">
           <p>O que é HTML?</p>
         </div>
 
         <div class="textInformations">
           <p>HTML, sigla para HyperText Markup Language, Embora não seja uma linguagem de
             programação propriamente dita, mas sim uma linguagem de marcação, ele é responsável
-            por estruturar o conteúdo das páginas web. Por meio de elementos e tags, o HTML define
+            por estruturar o conteúdo das páginas web, sendo o esqueleto do site. Por meio de elementos e tags, o HTML define
             como cada parte de uma página será exibida, organizando textos,
             imagens, links e outros elementos visuais.</p>
         </div>
 
-        <div class="titleInformatios">
+        <div class="titleInformatios" id="html2">
           <p>O que são tags?</p>
         </div>
 
@@ -170,12 +196,24 @@
           </div>
         </div>
 
-        <div class="titleInformatios">
-          <p>Exemplos de Tags</p>
+        <div class="titleInformatios" id="html3">
+          <p>EXEMPLOS DE TAGS</p>
         </div>
         <div class="textInformations">
           <p>Existem várias tags que auxiliam no desenvolvimento da página web, e desempenham funções diversas:
           </p>
+
+          <p><b>html:</b> A tag html é bem simples, ela é a raiz do documento, ela basicamente serve para definir a limitação de todo o site, onde ele começa e onde ele termina.
+          ela informa o navegador que aquele documento é um HTML. <b>Todas</b> as tags devem ser incluidas dentro do html.
+          </p>
+          
+          <p><b>head:</b> O head vêm do inglês, que significa "cabeça". Essa tag define um cabeçalho que engloba elementos que não serão incluidos diretamente no site,
+          porém são importantes para o seu funcionamento. Essa tag pode conter varios elementos, como a inserção de um css externo, interno, um script JavaScript,
+          informações para codificação de caracteres e etc.</p>
+
+          <p><b>body:</b> A tag body é uma seção que armazena todos os elementos vísiveis dentro da página. Ou seja, todos os titulos, textos, containeres, e outros estarão alocados dentro
+          do body.</p>
+
           <p><b>h1, h2, h3, h4:</b>  Essas tags servem para fazer um título para certos elementos, como em uma pagína web, em um container de conteúdo
           e entre outros.</p>
 
@@ -191,21 +229,103 @@
             
         </div>
 
-        <div class="titleInformatios">
+        <div class="titleInformatios" id="html4">
+          <p>TAGS NO CÓDIGO</p>
+        </div>
+
+        <div class="wrapperCode">
+          <div class="containerCodeCard">
+            <div class="localCode">
+              <h3>index.html</h3>
+            </div>
+            <div class="codeCard">
+              <div class="code">
+                <code id="code">
+                  &lt;html&gt;
+                                  
+                    &lt;head&gt;
+                      &lt;meta charset="UTF-8"&gt;
+                      &lt;title&gt;Minha Página&lt;/title &gt; 
+                      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;/head&gt;
+
+                    &lt;body&gt;
+                      &lt;h1&gt;Titulo do Meu Site&lt;/h1&gt;
+                      &lt;br&gt; &lt;!-- Isso é uma quebra de linha--&gt;
+                      
+                      &lt;div class="informacoes"&gt;
+                        &lt;p&gt;
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        &lt;/p&gt;
+                      &lt;/div&gt;
+
+
+                      &lt;img src="imagem.jpg" alt="Descrição da imagem"&gt;
+
+                    &lt;/body&gt;
+
+                    
+                  &lt;/html&gt;
+                </code>
+
+                <!--! Botão fantasma -->
+                <button class="btnCopy">
+                  <span class="material-symbols-outlined">
+                    content_copy
+                    </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="titleInformatios" id="html5">
           <p>Exemplos de atributos</p>
         </div>
         <div class="textInformations">
           <p>Existem alguns tipos de atributos que podem ser atribuidos dentro do seu documento HTML,
             por exemplos:
           </p>
-          <p><b>Class:</b> a class serve especialmente para ser um marcador de tags específicas, que podem ser formatadas
+
+          <p><b>id:</b> O atributo id fornece um identificador único para um elemento. Ele é usado para manipulação via JavaScript ou para vincular estilos CSS a um elemento específico.</p>
+          
+          <p><b>href:</b> O atributo href é usado no elemento &lt;a&gt; para especificar o destino de um hiperlink.</p>
+
+          <p><b>placeholder:</b> O atributo placeholder exibe um texto de sugestão em campos de entrada até que o usuário insira um valor.</p>
+          
+          <p><b>disable:</b> O atributo disabled desabilita um elemento, como um campo de formulário ou um botão, impedindo que o usuário o interaja.</p>
+
+          <p><b>class:</b> A class serve especialmente para ser um marcador de tags específicas, que podem ser formatadas
           por um documento CSS, ou manipuladas por um script JavaScript.</p>
+
+          <p><b>type:</b> Esse tipo informa qual tipo de elemento em um imput por exemplo ele é, ou em outras tags que usem esse elemento.</p>
+
+          <p><b>name:</b> O name serve para dar um nome ao elemento em um formulário, que será manipulado com um script JavaScript.</p>
         </div>
 
-        <!-- Falta muitos atributos, e talvez eu coloque acima exemplos de tags também -->
-        
-        <!-- Falta fazer um elemento pra linkar os PDFs de livros -->
+        <div class="titleInformatios" id="css1">
+          <p>O que é CSS</p>
+        </div>
+
+        <div class="textInformations">
+          <p>
+            O CSS, sigla para "Cascading Style Sheets" é uma linguagem de estilos utilizada para formatar e moldar
+          a aparência de documentos HTML, e também XML. Anteriormente, foi dito que o HTML estrutura a página web, e o CSS vai agora controlar
+          o conteúdo, e será responsável por cuidar da visualização dessa página, na questão de cores, fontes, espaçamentos, alinhamento, e
+          disposição dos itens dentro do documento.
+          </p>
+
+          <p>
+            O CSS é responsável por várias funções dentro do site, e ofecere muitas opções para modificar o mesmo. O CSS
+            possibilita ter um controle do layout, com várias ferramentas para posicionar, alinhar e dimensionar todos os elementos
+            no layout. Exemplos deles são margin, padding, display, e outros. Ele também é bem utilizado para uma melhor responsibidade do site,
+            moldando os elementos para que possa responder em vários tipos de resolução e tamanhos de tela.
+          </p>
+
+        </div>
+
     </article>
+
 
     
   </section>
