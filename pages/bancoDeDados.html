@@ -108,23 +108,9 @@
           <div class="itemMenu">
             <a href="#bd3">Modelo entidade-relacionamento</a>
           </div>
+
           <div class="itemMenu">
-            <a href="#bd4">SQL</a>
-          </div>
-          <div class="itemMenu">
-            <a href="#bd5">MySQL</a>
-          </div>
-          <div class="itemMenu">
-            <a href="#bd6">Criação de um banco de dados</a>
-          </div>
-          <div class="itemMenu">
-            <a href="#bd7">Criação de uma tabela</a>
-          </div>
-          <div class="itemMenu">
-            <a href="#bd8">Criação de informações</a>
-          </div>
-          <div class="itemMenu">
-            <a href="#bd9">JOINS</a>
+            <a href="#bd4">EXEMPLO DER</a>
           </div>
     
       </article>
@@ -180,182 +166,11 @@
         </div>
 
         <div class="titleInformatios" id="bd4">
-          <p>SQL:</p>
+          <p>EXEMPLO DER</p>
         </div>
-
-        <div class="textInformations">
-          <p>SQL, que significa Structured Query Language (Linguagem de Consulta Estruturada), é uma linguagem de programação projetada para gerenciar e manipular bancos de dados relacionais. A linguagem é composta por um conjunto de comandos e sintaxes que são padronizados, o que garante que o mesmo código funcione na maioria dos SGBDs, como MySQL, PostgreSQL e SQL Server.</p>
-
-            <p>Com SQL, é possível interagir com sistemas de gerenciamento de banco de dados (SGBDs), permitindo aos usuários executar uma variedade de operações, como consultar (Select), inserir (Insert), atualizar (update) e excluir (delete) dados. </p>
-
-              <p>Durante o curso, essa linguagem é mais aprofundada na matéria de banco de dados. Caso tenha curiosidade sobre essa linguagem, será disponibilizado o conteúdo digital referente a esse assunto.</p>
-        </div>
-
-        <div class="titleInformatios" id="bd5">
-          <p>MySQL:</p>
-        </div>
-
-        <div class="textInformations">
-          <p>MySQL é um sistema de gerenciamento de banco de dados relacional de código aberto. Ele utiliza a linguagem SQL (Structured Query Language) para gerenciar e manipular dados. MySQL é amplamente utilizado em aplicações web e é conhecido por sua eficiência, robustez e facilidade de uso. É uma escolha popular para desenvolvedores que precisam armazenar, recuperar e manipular grandes volumes de dados. Além disso, MySQL é frequentemente utilizado em conjunto com outras tecnologias, como PHP e Apache, em pilhas como a LAMP (Linux, Apache, MySQL, PHP).</p>
-        </div>
-
         <div class="imgexemplo">
-          <img src="./../img/conteudo/bd1.jpg" alt="Imagem">
+          <img src="./../img/conteudo/derExemplo1.png" alt="Imagem">
         </div>
-<br>
-        <div class="imgexemplo">
-          <img src="./../img/conteudo/bd2.jpg" alt="Imagem">
-        </div>
-<br>
-        <div class="imgexemplo">
-          <img src="./../img/conteudo/bd3.jpg" alt="Imagem">
-        </div>
-
-        <div class="titleInformatios" id="bd6">
-          <p>Criação de um banco de dados</p>
-        </div>
-
-        <div class="textInformations">
-          <p>É hora de criar seu primeiro banco de dados no MySQL. Para este tutorial, queremos criar um banco de dados chamado "bancoDados". O banco de dados é hospedado localmente.</p>
-
-            <p>Para criar um banco de dados, use o seguinte comando:</p>
-        </div>
-
-        <div class="wrapperCode">
-          <div class="containerCodeCard">
-            <div class="localCode">
-              <h3>MySQL</h3>
-            </div>
-            <div class="codeCard">
-            
-              <div class="code">
-                <code id="code">
-                  Código: 
-CREATE DATABASE bancoDados;
-                </code>
-                <!--! Botão fantasma -->
-                <button class="btnCopy">
-                  <span class="material-symbols-outlined">
-                    content_copy
-                    </span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="titleInformatios" id="bd7">
-          <p>Criação de uma tabela</p>
-        </div>
-
-        <div class="wrapperCode">
-          <div class="containerCodeCard">
-            <div class="localCode">
-              <h3>MySQL</h3>
-            </div>
-            <div class="codeCard">
-            
-              <div class="code">
-                
-                <code id="code">
-                  CREATE TABLE joias (
-    id INT AUTO_INCREMENT PRIMARY KEY,       
-    nome VARCHAR(100) NOT NULL,                
-    tipo VARCHAR(50) NOT NULL,                 
-    preco DECIMAL(10, 2) NOT NULL,
-    data_criacao DATE NOT NULL,
-    disponivel BOOLEAN NOT NULL DEFAULT TRUE,  
-    descricao TEXT
-);
-                </code>
-                <!--! Botão fantasma -->
-                <button class="btnCopy">
-                  <span class="material-symbols-outlined">
-                    content_copy
-                    </span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="titleInformatios" id="bd8">
-          <p>Criação de informações</p>
-        </div>
-
-        <div class="wrapperCode">
-          <div class="containerCodeCard">
-            <div class="localCode">
-              <h3>MySQL</h3>
-            </div>
-            <div class="codeCard">
-            
-              <div class="code">
-                
-                <code id="code">
-                  INSERT INTO joias (nome, tipo, preco, data_criacao, disponivel, descricao)
-VALUES (
-    'Anel de Diamante',
-    'anel',
-    1500.00,
-    '2024-10-09',
-    TRUE,
-    'Um lindo anel com diamante central e design elegante.'
-);
-                </code>
-                <!--! Botão fantasma -->
-                <button class="btnCopy">
-                  <span class="material-symbols-outlined">
-                    content_copy
-                    </span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="titleInformatios" id="bd9">
-          <p>JOINS</p>
-        </div>
-
-        <div class="textInformations">
-          <p>Inner Join: O Inner Join é o método de junção mais conhecido e, como ilustra a abaixo retorna os registros que são comuns às duas tabelas.</p>
-          <p>Left Join: O Left Join, cujo funcionamento é ilustrado na figura abaixo, tem como resultado todos os registros que estão na tabela A (mesmo que não estejam na tabela B) e os registros da tabela B que são comuns à tabela A.</p>
-          <p>Right Join: Usando o Right Join, conforme mostra a figura abaixo, teremos como resultado todos os registros que estão na tabela B (mesmo que não estejam na tabela A) e os registros da tabela A que são comuns à tabela B.</p>
-        </div>
-
-        <div class="wrapperCode">
-          <div class="containerCodeCard">
-            <div class="localCode">
-              <h3>MySQL</h3>
-            </div>
-            <div class="codeCard">
-            
-              <div class="code">
-                
-                <code id="code">
-                  SELECT p.nome_paciente, c.data_consulta, m.nome_medico
-FROM paciente as p 
-INNER JOIN consulta as c
-on p.codigo_paciente = c.codigo_paciente
-INNER JOIN medico as m on c.crm_medico= m.crm_medico
-
-                </code>
-                <!--! Botão fantasma -->
-                <button class="btnCopy">
-                  <span class="material-symbols-outlined">
-                    content_copy
-                    </span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="textInformations">
-          <p>Durante o curso, essa linguagem é mais aprofundada na matéria de banco de dados. Caso tenha curiosidade sobre essa linguagem, será disponibilizado o conteúdo digital referente a esse assunto.</p>
-        </div>   
-
     </article>
 
     
