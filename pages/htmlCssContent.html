@@ -127,11 +127,11 @@
           </div>
 
           <div class="itemMenu">
-            <a href="css3">UNIDADES DE MEDIDA</a>
+            <a href="#css3">UNIDADES DE MEDIDA</a>
           </div>
 
           <div class="itemMenu">
-            <a href="#css4">Exemplos de Códigos</a>
+            <a href="#css4">EXEMPLO DE CÓDIGO</a>
           </div>
     
           
@@ -324,6 +324,65 @@
 
         </div>
 
+        <div class="titleInformatios" id="css2">
+          <p>SINTAXE</p>
+        </div>
+
+        <div class="textInformations">
+          <p>
+            Para formatar com um documento CSS, é preciso utilizar uma sintaxe diferente do HTML. A regra de estilos é em cascata. Ela funciona com um bloco de declaração, onde primeiramente referenciamos o elemento html, seja uma tag, ou uma classe ou id, e então dentro do bloco em chaves "{}" fazemos as declarações para formatar um ou mais elementos.
+          </p>
+        </div>
+
+        <div class="titleInformatios" id="css3">
+          <p>Unidades de Medida</p>
+        </div>
+
+        <div class="textInformations">
+          <p>No CSS, as unidades de medida são essenciais para definir tamanhos, distâncias e outras propriedades. As unidades podem ser divididas em duas categorias principais: absolutas e relativas.
+          </p>
+
+          <p>As unidades absolutas incluem pixels (px), pontos (pt), e polegadas (in). Os pixels são a unidade mais comum e são utilizados para a maioria dos elementos na web, pois oferecem precisão no controle do layout. Pontos são frequentemente usados em impressão, onde 1 ponto equivale a 1/72 de uma polegada. Polegadas também são mais utilizadas em impressão e design gráfico.</p>
+
+          <p>Por outro lado, as unidades relativas se adaptam ao contexto em que são usadas. As unidades mais conhecidas incluem porcentagem (%), que é relativa ao tamanho do elemento pai, e viewport (vw e vh), que são baseadas na largura e altura da janela de visualização do navegador. Além disso, existem unidades como em e rem, que se baseiam no tamanho da fonte. O "em" é relativo ao tamanho da fonte do elemento atual, enquanto "rem" é relativo ao tamanho da fonte da raiz do documento, geralmente o &lt;html&gt;.</p>
+
+        </div>
+        
+        <div class="titleInformatios" id="css4">
+          <p>EXEMPLO DE CÓDIGO</p>
+        </div>
+
+        <div class="wrapperCode">
+          <div class="containerCodeCard">
+            <div class="localCode">
+              <h3>style.css</h3>
+            </div>
+            <div class="codeCard">
+              <div class="code">
+                <code id="code">
+                  p {
+                    color: blue;
+                    font-size: 16px;
+                    margin: 20px;
+                }                
+                </code>
+
+                <!--! Botão fantasma -->
+                <button class="btnCopy">
+                  <span class="material-symbols-outlined">
+                    content_copy
+                    </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="textInformations">
+          Esse código CSS estiliza todos os elementos &lt;p&gt; (parágrafos) em um documento HTML. O seletor p indica que as regras dentro das chaves se aplicam a todos os parágrafos. A primeira declaração, color: blue;, define a cor do texto como azul, fazendo com que o texto dentro do parágrafo seja exibido nessa cor. A segunda declaração, "font-size: 16px;", estabelece o tamanho da fonte do texto para 16 pixels, que é um tamanho comum e legível. Por fim, a declaração "margin: 20px;" adiciona um espaço externo de 20 pixels ao redor do parágrafo, separando-o de outros elementos na página. Essas regras, juntas, proporcionam uma aparência organizada e atraente ao texto.
+        </div>
+
+
     </article>
 
 
@@ -349,3 +408,4 @@
 </main>
 <script src="./../js/script.js"></script>
 </body>
+</html>
