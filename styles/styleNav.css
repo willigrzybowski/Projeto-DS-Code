@@ -156,6 +156,9 @@ header a, homePage a{
 }
 
 @media (max-width: 768px) {
+  nav{
+    margin-top: 1.5rem;
+  }
   .menu {
     display: none;
     flex-direction: column;
