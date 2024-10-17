@@ -156,8 +156,14 @@ header a, homePage a{
 }
 
 @media (max-width: 768px) {
+
+  /* Atualizações de Willian */
   nav{
     margin-top: 1.5rem;
+  }
+
+  .bodyHome{
+    background-position: center;
   }
   .menu {
     display: none;
