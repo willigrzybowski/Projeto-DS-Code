@@ -30,7 +30,7 @@ nav {
   color: #fff;
   font-weight: bolder;
   position: absolute;
-  left: 20px;
+  left: 100px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -116,6 +116,11 @@ header a, homePage a{
   color: #fff;
 }
 
+.iconLogo{
+  width: 50px;
+  height: auto;
+}
+
 .dropdown {
   display: none;
   position: absolute;
@@ -160,6 +165,14 @@ header a, homePage a{
   /* Atualizações de Willian */
   nav{
     margin-top: 2rem;
+  }
+
+  .iconLogo{
+    width: 40px;
+  }
+
+  .logo{
+    left: 20px;
   }
 
   .bodyHome{
